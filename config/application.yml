@@ -1,0 +1,12 @@
+DATABASE_URL: postgres://decidim_app:thebronX1984@localhost/decidim_prod
+
+SECRET_KEY_BASE: 5e03327c194afab25be96ddea038883fefd71d791bcf729d34ce06d812258758e14c5b82d41590d29a949453788d0a50bfd6f2b807a8df394f43043b5f70c730
+
+SMTP_USERNAME: contact.ensemble2020@gmail.com
+SMTP_PASSWORD: grouponsnous2020
+SMTP_ADDRESS: smtp.gmail.com
+SMTP_DOMAIN: gmail.com
+
+GEOCODER_LOOKUP_APP_ID: f82UCC19W5ABnJpwpI6y
+GEOCODER_LOOKUP_APP_CODE: M1TJErynEmNwJHzs_PFI_Q
+
