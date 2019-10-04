@@ -5,10 +5,12 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 
 gem "decidim", "0.18.0"
-# gem "decidim-consultations", "0.18.0"
-# gem "decidim-initiatives", "0.18.0"
+gem "decidim-consultations", "0.18.0"
+gem "decidim-initiatives", "0.18.0"
 
 gem "bootsnap", "~> 1.3"
+gem "wicked_pdf"
+gem "wkhtmltopdf-binary"
 
 gem "puma", "~> 3.0"
 gem "uglifier", "~> 4.1"
