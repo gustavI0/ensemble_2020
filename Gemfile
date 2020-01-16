@@ -6,8 +6,8 @@ ruby RUBY_VERSION
 DECIDIM_VERSION = { git: 'https://github.com/decidim/decidim.git', branch: '0.18-stable' }
 
 gem "decidim", DECIDIM_VERSION
-gem "decidim-consultations", DECIDIM_VERSION
-gem "decidim-initiatives", DECIDIM_VERSION
+# gem "decidim-consultations", DECIDIM_VERSION
+# gem "decidim-initiatives", DECIDIM_VERSION
 
 gem "bootsnap", "~> 1.3"
 gem "wicked_pdf"
@@ -19,7 +19,6 @@ gem "uglifier", "~> 4.1"
 gem "faker", "~> 1.9"
 
 gem "figaro"
-
 group :development, :test do
   gem "byebug", "~> 10.0", platform: :mri
 
