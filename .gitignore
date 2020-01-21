@@ -32,3 +32,10 @@
 
 # Ignore public uploads
 public/uploads
+
+# Ignore PHPStorm config files
+.idea
+.DS_Store
+
+# Ignore db_dump
+/db_dump
